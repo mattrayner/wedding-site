@@ -5,14 +5,9 @@
 /* NB: The h1 style is set up separately on the "customise design page" */
 
 body {
-	background: rgb(254,255,255); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgb(254,255,255) 71%, rgb(239,245,249) 80%, rgb(254,255,255) 93%, rgb(239,245,249) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(71%,rgb(254,255,255)), color-stop(80%,rgb(239,245,249)), color-stop(93%,rgb(254,255,255)), color-stop(100%,rgb(239,245,249))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#eff5f9',GradientType=0 ); /* IE6-9 */
+	/*background: url(../../tplcss/samplestyle/images/bg-glitter.jpg) center center no-repeat;*/
+	background: url(../../tplcss/samplestyle/images/bg-tall.jpg) top center no-repeat;
+	background-size: cover;
 	padding-left: 0px;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -372,33 +367,32 @@ form {
 }
 
 .front-page-boxes-left {
-	border: 5px solid white;
+	border: 1px solid #e70f0c;
 	padding: 10px;
 	width: 170px;
 	float: left;
 	height: 100%;
-	background-color: #D7EBFF;
+	background-color: #FFE2E2;
 	color: #0066FF;
 }
 
 .front-page-boxes-middle {
-	border: 5px solid white;
+	border: 1px solid #e70f0c;
 	padding: 10px;
 	width: 170px;
 	float: left;
 	margin-left: 20px;
 	height: 100%;
-	background-color: #FADBDA;
 }
 
 .front-page-boxes-right {
-	border: 5px solid white;
+	border: 1px solid #e70f0c;
 	padding: 10px;
 	width: 170px;
 	float: left;
 	margin-left: 20px;
 	height: 100%;
-	background: #D7EBFF;
+	background: #FFE2E2;
 }
 
 
