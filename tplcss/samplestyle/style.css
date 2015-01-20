@@ -1,0 +1,502 @@
+@charset "utf-8";
+
+/* BASIC ELEMENTS */
+/* NB: The h1 style is set up separately on the "customise design page" */
+
+body {
+	background-image: url(../../tplcss/samplestyle/images/bg-red-heart-light.gif);
+	background-repeat: repeat;
+	background-position: center;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+
+a {
+	color: #E96461;
+	font-size: 14px;
+	text-decoration: none;
+	border-bottom: 1px solid #EF8F8D;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+.submit-button {
+	background-color: #FFFFCC;
+	margin-top: 10px;
+	border: 1px solid #DC5050;
+	height: 30px;
+}
+
+/* ----------- GENERAL ELEMENTS ---------------- */
+
+.main-table {
+	background-color: #FFF9F9;
+	background-image: url(../../tplcss/samplestyle/images/red-heart-background-v4-bgslice-900px.jpg);
+	background-repeat: no-repeat;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFB9B9;
+	border-right-color: #FFB9B9;
+	border-bottom-color: #FFB9B9;
+	border-left-color: #FFB9B9;
+	padding: 0px;
+}
+
+.main-content {
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-right: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+
+.main-container {
+	background-color: #ffffff;
+	background-image: url(../../tplcss/samplestyle/images/couple-shot-900px-150px.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 900px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FADCDB;
+	border-right-color: #FADCDB;
+	border-bottom-color: #FADCDB;
+	border-left-color: #FADCDB;
+	position: relative;
+}
+
+.main-container .top-thin-bar {
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 1100px;
+	top: 160px;
+	position: absolute;
+	background-position: 0px 0px;
+	text-align: center;
+	padding-top: 7px;
+	left: 0px;
+	margin-left: -122px;
+	font-size: 10pt;
+}
+.main-container .right-panel .intro-panel {
+	width: 640px;
+	min-height: 333px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #193429;
+}
+.main-footer {
+	width: 880px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-repeat:no-repeat;
+	margin-left: auto;
+	height: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #FFB9B9;
+	border-bottom-color: #FFB9B9;
+	border-left-color: #FFB9B9;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	clear: both;
+}
+.main-footer .left-links {
+	width:300px; 
+	height:100%; 
+	float:left;
+}
+.main-footer .right-logo {
+	width:400px; 
+	float:right; 
+	text-align:right;
+}
+.left-panel  {
+	width: 160px;
+	float: left;
+	margin-top: 220px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	}
+.right-panel  {
+	width: 640px;
+	float: right;
+	margin-top: 220px;
+	margin-right: 30px;
+	margin-bottom: 35px;
+	}
+.leftmenu {
+	padding-left: 15px;
+	width: 200px;
+	padding-top: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+}
+.clearbreak {
+	clear:both; 
+	height:10px; 
+	overflow:hidden;
+}
+.main-table-top-banner {
+	text-align: center;
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #999999;
+}
+
+.main-table-top-banner-sub {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main-bottom-strip {
+	padding: 10px;
+	border-top: 1pt solid #CCCCCC;
+	background: #EEEEEE;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.main-bottom-strip a {
+	color: #666666;
+}
+.main-bottom-strip a:visited {
+	color: #666666;
+}
+.main-bottom-strip a:hover {
+	color: #AAAAAA;
+}
+
+.table-light-padding {
+	padding: 3px;
+	padding-bottom: 7px;
+}
+
+.redtext {color: #DC5050}
+
+.smaller-text-indent {
+	font-size: 10pt;
+	padding-left: 20px;
+}
+
+.text-indent {
+	padding-left: 20px;
+}
+
+.editingtextarea {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	background-color: #FFFFFF;
+	border: 1px dotted #E98E95;
+}
+
+
+
+/* Menu bar */
+
+.menu-box-top1 {
+	height: 10px;
+	width: 180px;
+	background-image: url(http://default.gettingmarried.co.uk/images/css-img/top-rounded.gif);
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-position: bottom;
+}
+
+.menu-box-middle {
+	background-color: #FFFFFF;
+	width: 160px;
+	margin: 0px;
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+}
+
+.menu-box-middle p {
+	font-style: italic;
+	padding-bottom: 0px;
+}
+
+.menu-box-middle ul {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #996666;
+	letter-spacing: 2px;
+}
+
+.menu-box-middle li {
+	list-style: none;
+	margin-left: -30px;
+	margin-bottom: 4px;
+	font-style: none;
+	font-weight: bold;
+}
+
+.menu-box-middle li li {
+	text-transform: none;
+	margin-bottom: 4px;
+	font-weight: normal;
+	margin-left: -40px;
+	font-family: Georgia;
+	letter-spacing: 0px;
+}
+
+.menu-box-middle li ul {
+	padding-top: 0px;
+	background-repeat: no-repeat;
+}
+
+.menu-box-middle a {
+	color: #E96461;
+	text-decoration: none;
+	border-bottom: 1px solid #b0c5bc;
+	line-height: 25px;
+}
+.menu-box-middle a:visited {
+	color: #E96461;
+}
+.menu-box-middle a:hover {
+	color: #EF8F8D;
+}
+
+.menu-box-bottom1 {
+	background-image: url(http://default.gettingmarried.co.uk/images/css-img/bottom-rounded.gif);
+	background-repeat: no-repeat;
+	width: 180px;
+	height: 10px;
+	margin: 0px;
+}
+
+
+
+/* ----------- FRONT PAGE ELEMENTS ------------- */
+
+/* Front three boxes */
+
+.front-page-boxes-wrapper {
+	float: right;
+	width: 640px;
+	margin-right: 0px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	height: 170px;
+}
+
+.front-page-boxes-wrapper em {
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 14px;
+	color:#666666;
+	letter-spacing: 2px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.front-page-boxes-wrapper p {
+	margin-top:0;
+}
+
+.front-page-boxes {
+	border: 1px dotted #FFA8A8;
+	padding: 10px;
+}
+
+.front-page-boxes a {
+	color: #3399CC;
+}
+.front-page-boxes a:visited {
+	color: #3399CC;
+}
+.front-page-boxes a:hover {
+	color: #3399CC;
+}
+.front-page-boxes-text {
+	font-size: 10pt;
+	line-height: 18px;
+	color: #253630;
+}
+
+.front-page-boxes-left {
+	border: 5px solid white;
+	padding: 10px;
+	width: 170px;
+	float: left;
+	height: 100%;
+	background-color: #D7EBFF;
+	color: #0066FF;
+}
+
+.front-page-boxes-middle {
+	border: 5px solid white;
+	padding: 10px;
+	width: 170px;
+	float: left;
+	margin-left: 20px;
+	height: 100%;
+	background-color: #FADBDA;
+}
+
+.front-page-boxes-right {
+	border: 5px solid white;
+	padding: 10px;
+	width: 170px;
+	float: left;
+	margin-left: 20px;
+	height: 100%;
+	background: #D7EBFF;
+}
+
+
+/* ------------ OTHER SECTIONS --------------- */
+
+/* Gift list table */
+
+.giftlist-header-row {
+	background-color: #FFFFCC;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #FF9966;
+	border-left-color: #666666;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.giftlist-rowa {
+	font-size: 10pt;
+	background-color: #FCEEED;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F7D0CC;
+}
+.giftlist-rowb {
+	font-size: 10pt;
+	background-color: #FFFDFD;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+.giftlist-rowa-midmerge {
+	font-size: 10pt;
+	background-color: #FCEEED;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #F7D0CC;
+}
+.giftlist-rowb-midmerge {
+	font-size: 10pt;
+	background-color: #FFFDFD;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.giftlist-row-purchased {
+	font-size: 10pt;
+	background-color: #EEEEEE;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F7D0CC;
+	color: #999999;
+}
+
+/* Other sections */
+
+.photo-align-right {
+	margin-left: 20px;
+	border: 5px white solid;
+	width: 200px;
+	height: 266px;
+	margin-top: 5px;
+}
+
+.photo-profiles {
+	border: 5px white solid;
+}
+
+.Couple-Name-Heading {
+	font-size: 48pt;
+	font-family: "Palace Script MT";
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.aboutus-cells {
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.aboutus-cells img {
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.rsvpbox {
+	border: 2px dotted #FFA6A6;
+	padding: 10px;
+	background-color: #FFFFCC;
+}
