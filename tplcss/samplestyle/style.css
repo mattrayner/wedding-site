@@ -1,26 +1,40 @@
 @charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:400,300,600);
 
 /* BASIC ELEMENTS */
 /* NB: The h1 style is set up separately on the "customise design page" */
 
 body {
-	background-image: url(../../tplcss/samplestyle/images/bg-red-heart-light.gif);
-	background-repeat: repeat;
-	background-position: center;
+	background: rgb(254,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgb(254,255,255) 71%, rgb(239,245,249) 80%, rgb(254,255,255) 93%, rgb(239,245,249) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(71%,rgb(254,255,255)), color-stop(80%,rgb(239,245,249)), color-stop(93%,rgb(254,255,255)), color-stop(100%,rgb(239,245,249))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgb(254,255,255) 71%,rgb(239,245,249) 80%,rgb(254,255,255) 93%,rgb(239,245,249) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#eff5f9',GradientType=0 ); /* IE6-9 */
 	padding-left: 0px;
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 }
 
+h1, h2, h3 {
+	font-family: 'Pacifico', cursive;
+}
+
+h1 {
+	color: #e70f0c
+}
+
 a {
-	color: #E96461;
+	color: #e70f0c;
 	font-size: 14px;
 	text-decoration: none;
-	border-bottom: 1px solid #EF8F8D;
+	border-bottom: 1px solid #e70f0c;
 }
 
 form {
@@ -499,4 +513,14 @@ form {
 	border: 2px dotted #FFA6A6;
 	padding: 10px;
 	background-color: #FFFFCC;
+}
+
+/* Custom Overrides */
+span#about_groom, span#about_bride {
+	line-height: 1.25;
+	font-size: 14px;
+}
+
+span#about_howmet, span#about_proposal, span#about_groom, span#about_bride, span#giftlist_intro {
+	font-size: 14px;
 }
