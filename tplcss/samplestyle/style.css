@@ -5,9 +5,7 @@
 /* NB: The h1 style is set up separately on the "customise design page" */
 
 body {
-	/*background: url(../../tplcss/samplestyle/images/bg-glitter.jpg) center center no-repeat;*/
-	background: url(../../tplcss/samplestyle/images/bg-tall.jpg) top center no-repeat;
-	background-size: cover;
+	background: url(../../tplcss/samplestyle/images/bg-tall-warm-1500.jpg) top center no-repeat;
 	padding-left: 0px;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -15,6 +13,7 @@ body {
 	margin-bottom: 0px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
+	color: #898989;
 }
 
 h1, h2, h3 {
@@ -47,7 +46,7 @@ form {
 /* ----------- GENERAL ELEMENTS ---------------- */
 
 .main-table {
-	background-color: #FFF9F9;
+	background-color: #fffcbe;
 	background-image: url(../../tplcss/samplestyle/images/red-heart-background-v4-bgslice-900px.jpg);
 	background-repeat: no-repeat;
 	border-top-width: 0px;
@@ -58,10 +57,7 @@ form {
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #FFB9B9;
-	border-right-color: #FFB9B9;
-	border-bottom-color: #FFB9B9;
-	border-left-color: #FFB9B9;
+	border-color: #FFB9B9;
 	padding: 0px;
 }
 
@@ -75,7 +71,7 @@ form {
 
 .main-container {
 	background-color: #ffffff;
-	background-image: url(../../tplcss/samplestyle/images/couple-shot-900px-150px.jpg);
+	background-image: url(../../tplcss/samplestyle/images/wedding-site-banner.jpg);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	width: 900px;
@@ -91,10 +87,7 @@ form {
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #FADCDB;
-	border-right-color: #FADCDB;
-	border-bottom-color: #FADCDB;
-	border-left-color: #FADCDB;
+	border-color: #f2f2f2;
 	position: relative;
 }
 
@@ -116,7 +109,6 @@ form {
 	min-height: 333px;
 	font-size: 14px;
 	line-height: 20px;
-	color: #193429;
 }
 .main-footer {
 	width: 880px;
@@ -268,7 +260,7 @@ form {
 	margin-top: 5px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
-	font-family: Helvetica;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #996666;
 	letter-spacing: 2px;
@@ -287,7 +279,7 @@ form {
 	margin-bottom: 4px;
 	font-weight: normal;
 	margin-left: -40px;
-	font-family: Georgia;
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 0px;
 }
 
@@ -360,6 +352,10 @@ form {
 .front-page-boxes a:hover {
 	color: #3399CC;
 }
+.front-page-boxes table tr td:first-child {
+	color: #000;
+	font-size: 14px;
+}
 .front-page-boxes-text {
 	font-size: 10pt;
 	line-height: 18px;
@@ -401,7 +397,7 @@ form {
 /* Gift list table */
 
 .giftlist-header-row {
-	background-color: #FFFFCC;
+	background-color: #FFC3C3;
 	border-top-width: 0px;
 	border-right-width: 0px;
 	border-bottom-width: 1px;
@@ -415,12 +411,12 @@ form {
 	border-bottom-color: #FF9966;
 	border-left-color: #666666;
 	font-weight: bold;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding: 7px 3px 3px 3px;
+	color: #000;
 }
 .giftlist-rowa {
 	font-size: 10pt;
-	background-color: #FCEEED;
+	background-color: white;
 	padding-top: 5px;
 	padding-right: 0px;
 	padding-bottom: 5px;
@@ -431,7 +427,7 @@ form {
 }
 .giftlist-rowb {
 	font-size: 10pt;
-	background-color: #FFFDFD;
+	background-color: #FFE2E2;
 	padding-top: 5px;
 	padding-right: 0px;
 	padding-bottom: 5px;
@@ -459,7 +455,7 @@ form {
 
 .giftlist-row-purchased {
 	font-size: 10pt;
-	background-color: #EEEEEE;
+	background-color: #f8f8f8;
 	padding-top: 5px;
 	padding-right: 0px;
 	padding-bottom: 5px;
@@ -517,4 +513,16 @@ span#about_groom, span#about_bride {
 
 span#about_howmet, span#about_proposal, span#about_groom, span#about_bride, span#giftlist_intro {
 	font-size: 14px;
+}
+
+@media(min-width: 1500px) {
+	body { background-image: url(../../tplcss/samplestyle/images/bg-tall-warm-2000.jpg); }
+}
+
+@media(min-width: 2000px) {
+	body { background-image: url(../../tplcss/samplestyle/images/bg-tall-warm-2900.jpg); }
+}
+
+@media(min-width: 2900px) {
+	body { background-image: url(../../tplcss/samplestyle/images/bg-tall-warm-3456.jpg); }
 }
